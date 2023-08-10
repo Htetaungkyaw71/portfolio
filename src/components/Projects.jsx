@@ -1,5 +1,7 @@
 import kanban from "../assets/kanban.png";
+import Article from "./Article";
 import Project from "./Project";
+import { BiRightArrowAlt } from "react-icons/bi";
 
 const projects = [
   {
@@ -64,12 +66,43 @@ const projects = [
   },
 ];
 
+const articles = [
+  {
+    id: "1",
+    title: "Kanban Borad App",
+    image: kanban,
+    url: "https://kanban-ebon.vercel.app/",
+  },
+  {
+    id: "2",
+    title: "Kanban Borad App",
+    image: kanban,
+    url: "https://kanban-ebon.vercel.app/",
+  },
+];
+
 const Projects = () => {
   return (
     <div className="pr-16 pt-20" id="project">
       {projects.map((project) => (
         <Project project={project} key={project.id} />
       ))}
+      <a
+        className="flex items-center gap-1 ml-3 pt-5"
+        href="https://docs.google.com/document/d/118NYGQqoqAavNE77jZlboIxvcYgzAei3kgLAZszykys/edit"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <span className="text-md font-bold hover:border-b-[1px] border-gray-400 hover:mr-1">
+          View My Resume
+        </span>
+        <BiRightArrowAlt className="text-xl mt-[1px]" />
+      </a>
+      <div className="mt-24">
+        {articles.map((article) => (
+          <Article article={article} key={article.id} />
+        ))}
+      </div>
     </div>
   );
 };

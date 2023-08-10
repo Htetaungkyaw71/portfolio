@@ -39,9 +39,6 @@ const SideContext = ({ setActiveTag }) => {
       <About />
       <Skill />
       <Projects />
-      <div className="bg-yellow-600" id="contact">
-        <h1>contact</h1>
-      </div>
     </div>
   );
 };
