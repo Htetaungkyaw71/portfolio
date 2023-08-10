@@ -4,9 +4,9 @@ import { FaLinkedin, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
 const Header = ({ activeTag }) => {
   return (
     <div className="h-full sm:relative md:relative lg:fixed xl:fixed">
-      <h1 className="text-5xl font-bold">HtetaungKyaw</h1>
-      <h2 className="text-lg mt-3 font-semibold">
-        Lead Engineer at Upstatement
+      <h1 className="text-5xl font-bold text-gray-200">HtetaungKyaw</h1>
+      <h2 className="text-lg mt-3 font-semibold text-gray-200">
+        Full Stack Developer
       </h2>
       <p className="text-md mt-3 text-gray-400 w-96">
         I build accessible, inclusive products and digital experiences for the
@@ -17,8 +17,8 @@ const Header = ({ activeTag }) => {
           <a href="#about" className="flex items-center">
             <div
               className={`${
-                activeTag === "about" ? "w-16 bg-white" : "bg-gray-400"
-              }  mr-4 h-[1px] w-8 inline-block duration-500`}
+                activeTag === "about" ? "w-16 bg-white" : "bg-gray-400 w-8"
+              }  mr-4 h-[1px]  inline-block duration-500`}
             ></div>
             <div
               className={`inline-block text-gray-400 ${
@@ -34,8 +34,8 @@ const Header = ({ activeTag }) => {
           <a href="#skill" className="flex items-center">
             <div
               className={`${
-                activeTag === "skill" ? "w-16 bg-white" : "bg-gray-400"
-              }  mr-4 h-[1px]  w-8 inline-block duration-500`}
+                activeTag === "skill" ? "w-16 bg-white" : "bg-gray-400 w-8"
+              }  mr-4 h-[1px]   inline-block duration-500`}
             ></div>
             <div
               className={`inline-block text-gray-400 ${
@@ -51,8 +51,8 @@ const Header = ({ activeTag }) => {
           <a href="#project" className="flex items-center">
             <div
               className={`${
-                activeTag === "project" ? "w-16 bg-white" : "bg-gray-400"
-              }  mr-4 h-[1px]  w-8 inline-block duration-500`}
+                activeTag === "project" ? "w-16 bg-white" : "bg-gray-400 w-8"
+              }  mr-4 h-[1px]   inline-block duration-500`}
             ></div>
             <div
               className={`inline-block text-gray-400 ${
@@ -68,8 +68,8 @@ const Header = ({ activeTag }) => {
           <a href="#contact" className="flex items-center">
             <div
               className={`${
-                activeTag === "contact" ? "w-16 bg-white" : "bg-gray-400"
-              }  mr-4 h-[1px]  w-8 inline-block duration-500`}
+                activeTag === "contact" ? "w-16 bg-white" : "bg-gray-400 w-8"
+              }  mr-4 h-[1px]   inline-block duration-500`}
             ></div>
             <div
               className={`inline-block text-gray-400 ${

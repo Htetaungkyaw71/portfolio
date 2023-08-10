@@ -1,4 +1,6 @@
 import { useEffect } from "react";
+import About from "./About";
+import Skill from "./Skill";
 
 /* eslint-disable react/prop-types */
 
@@ -41,33 +43,12 @@ const SideContext = ({ setActiveTag }) => {
   }, [setActiveTag]);
   return (
     <div>
-      <div className="bg-red-700 h-auto pt-28 pb-28 px-16" id="about">
-        <p>
-          Back in 2012, I decided to try my hand at creating custom Tumblr
-          themes and tumbled head first into the rabbit hole of coding and web
-          development. Fast-forward to today, and Ive had the privilege of
-          building software for an advertising agency, a start-up, a student-led
-          design studio, and a huge corporation.
-          <br />
-          <br />
-          My main focus these days is building products and leading projects for
-          our clients at Upstatement. In my frve also released an online video
-          course that covers everything you need to know to build a web app with
-          the Spotify API.
-          <br />
-          <br />
-          When Im not at the computer, Im usually rock climbing, hanging out
-          with my wife and two cats, or running around Hyrule searching for
-          Korok seeds K o r o k s e e d s .
-        </p>
-      </div>
-      <div className="bg-blue-700 h-96" id="skill">
-        <h1>skills</h1>
-      </div>
-      <div className="bg-green-600 h-96" id="project">
+      <About />
+      <Skill />
+      <div className="bg-green-600 h-96 " id="project">
         <h1>project</h1>
       </div>
-      <div className="bg-yellow-600 h-96" id="contact">
+      <div className="bg-yellow-600 h-96 " id="contact">
         <h1>contact</h1>
       </div>
     </div>
