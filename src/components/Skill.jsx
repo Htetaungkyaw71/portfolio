@@ -1,6 +1,6 @@
 const Skill = () => {
   return (
-    <div className="h-96 pt-24 pr-16" id="skill">
+    <div className="pt-24 pr-16 px-3" id="skill">
       <div className="flex flex-wrap gap-10">
         <div className="border-[1px] px-2 py-1 rounded-md text-gray-400 border-gray-400 hover:-translate-y-2 cursor-pointer duration-500">
           HTML

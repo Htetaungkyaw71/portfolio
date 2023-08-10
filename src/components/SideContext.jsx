@@ -13,26 +13,18 @@ const SideContext = ({ setActiveTag }) => {
       const project = document.getElementById("project");
       const contact = document.getElementById("contact");
 
-      const rect1 = about.getBoundingClientRect();
-      const rect2 = skill.getBoundingClientRect();
-      const rect3 = project.getBoundingClientRect();
-      const rect4 = contact.getBoundingClientRect();
-
       const isInViewport = (elementRect) => {
-        return (
-          elementRect.top >= 0 &&
-          elementRect.bottom <=
-            (window.innerHeight || document.documentElement.clientHeight)
-        );
+        const rect = elementRect.getBoundingClientRect();
+        return rect.top >= 0 && rect.top <= window.innerHeight;
       };
 
-      if (isInViewport(rect1)) {
+      if (isInViewport(about)) {
         setActiveTag("about");
-      } else if (isInViewport(rect2)) {
+      } else if (isInViewport(skill)) {
         setActiveTag("skill");
-      } else if (isInViewport(rect3)) {
+      } else if (isInViewport(project)) {
         setActiveTag("project");
-      } else if (isInViewport(rect4)) {
+      } else if (isInViewport(contact)) {
         setActiveTag("contact");
       }
     };
@@ -47,7 +39,7 @@ const SideContext = ({ setActiveTag }) => {
       <About />
       <Skill />
       <Projects />
-      <div className="bg-yellow-600 h-96 " id="contact">
+      <div className="bg-yellow-600" id="contact">
         <h1>contact</h1>
       </div>
     </div>

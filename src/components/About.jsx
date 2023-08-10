@@ -2,8 +2,8 @@ import { BiRightArrowAlt } from "react-icons/bi";
 
 const About = () => {
   return (
-    <div className="h-96 pt-24 mb-48 pr-16 text-gray-400" id="about">
-      <p className="mb-12">
+    <div className="pt-24 pr-16 px-3 text-gray-400" id="about">
+      <p className="mb-10">
         Back in 2012, I decided to try my hand at creating custom Tumblr themes
         and tumbled head first into the rabbit hole of coding and web
         development. Fast-forward to today, and Ive had the privilege of

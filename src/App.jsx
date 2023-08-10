@@ -10,7 +10,7 @@ function App() {
         <div className="mt-5 p-16 ">
           <Header activeTag={activeTag} setActiveTag={setActiveTag} />
         </div>
-        <div className="overflow-y-auto ">
+        <div className="overflow-y-auto">
           <SideContext setActiveTag={setActiveTag} />
         </div>
       </div>
