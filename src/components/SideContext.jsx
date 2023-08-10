@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import About from "./About";
 import Skill from "./Skill";
+import Projects from "./Projects";
 
 /* eslint-disable react/prop-types */
 
@@ -45,9 +46,7 @@ const SideContext = ({ setActiveTag }) => {
     <div>
       <About />
       <Skill />
-      <div className="bg-green-600 h-96 " id="project">
-        <h1>project</h1>
-      </div>
+      <Projects />
       <div className="bg-yellow-600 h-96 " id="contact">
         <h1>contact</h1>
       </div>
