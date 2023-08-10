@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import About from "./About";
 import Skill from "./Skill";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 /* eslint-disable react/prop-types */
 
@@ -39,6 +40,7 @@ const SideContext = ({ setActiveTag }) => {
       <About />
       <Skill />
       <Projects />
+      <Contact />
     </div>
   );
 };

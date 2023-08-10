@@ -89,12 +89,12 @@ const Projects = () => {
       ))}
       <a
         className="flex items-center gap-1 ml-3 pt-5"
-        href="https://docs.google.com/document/d/118NYGQqoqAavNE77jZlboIxvcYgzAei3kgLAZszykys/edit"
+        href="https://github.com/Htetaungkyaw71?tab=repositories"
         target="_blank"
         rel="noreferrer"
       >
         <span className="text-md font-bold hover:border-b-[1px] border-gray-400 hover:mr-1">
-          View My Resume
+          More Projects On Github
         </span>
         <BiRightArrowAlt className="text-xl mt-[1px]" />
       </a>
