@@ -7,8 +7,7 @@ const Skill = () => {
       id="skill"
     >
       <h1 className="text-lg">
-        Here are some of the technologies I've been working on within my side
-        projects:
+        Here are a few technologies I’ve been working with recently:
       </h1>
       <div className="flex flex-wrap mt-12 gap-6 sm:gap-6 md:gap-6 lg:gap-10 xl:gap-10">
         <div>

@@ -1,6 +1,11 @@
 import kanban from "../assets/kanban.png";
 import link from "../assets/link.png";
 import realtor from "../assets/realtor.png";
+import chat from "../assets/chat.png";
+import game from "../assets/game.png";
+import ask from "../assets/ask.png";
+import article1 from "../assets/article1.jpg";
+import article2 from "../assets/article2.jpg";
 import Article from "./Article";
 import Project from "./Project";
 import { BiRightArrowAlt } from "react-icons/bi";
@@ -37,7 +42,7 @@ const projects = [
 
   {
     id: "3",
-    title: "Real Estate Application",
+    title: "Real Estate App",
     description:
       "A real estate application built with react and redux-toolkit. Seamlessly search through a wide range of properties as we leverage the power of Rapid API to provide you with up-to-date data. ",
     image: realtor,
@@ -47,48 +52,49 @@ const projects = [
   },
   {
     id: "4",
-    title: "Kanban Borad App",
+    title: "Chat Valley",
     description:
-      "Ram Maheshwari focuses on front-end development for websites and web applications. With a simple and easy-to-use menu bar, his portfolio explains his credentials and work without going into excessive detail.",
-    image: kanban,
-    source_code: "https://github.com/Htetaungkyaw71/Kanban",
-    live_demo: "https://kanban-ebon.vercel.app/",
-    tech: ["React", "Redux-toolkit", "JavaScript", "Tailwindcss"],
+      "Video chat with strangers. Users can chat random strangers from around the world. Users need to allow their camera and microphone in web browsers built with Html, CSS, JavaScript and other libraries.",
+    image: chat,
+    source_code: "https://github.com/Htetaungkyaw71/Chat-Valley",
+    live_demo: "https://chat-valley-zx8a.onrender.com/",
+    tech: ["Javascript", "WebRTC", "NodeJs", "Socket.io"],
   },
   {
     id: "5",
-    title: "Kanban Borad App",
+    title: "Gamery",
     description:
-      "Ram Maheshwari focuses on front-end development for websites and web applications. With a simple and easy-to-use menu bar, his portfolio explains his credentials and work without going into excessive detail.",
-    image: kanban,
-    source_code: "https://github.com/Htetaungkyaw71/Kanban",
-    live_demo: "https://kanban-ebon.vercel.app/",
-    tech: ["React", "Redux-toolkit", "JavaScript", "Tailwindcss"],
+      "A free-game app that pulls from the FreeToGame API to allow users to search for and view the free all games and view with categories. Built with React and Redux.",
+    image: game,
+    source_code: "https://github.com/Htetaungkyaw71/Gamery",
+    live_demo: "https://gamery.onrender.com/",
+    tech: ["React", "Redux-toolkit", "JavaScript"],
   },
   {
     id: "6",
-    title: "Kanban Borad App",
+    title: "Ask Me",
     description:
-      "Ram Maheshwari focuses on front-end development for websites and web applications. With a simple and easy-to-use menu bar, his portfolio explains his credentials and work without going into excessive detail.",
-    image: kanban,
-    source_code: "https://github.com/Htetaungkyaw71/Kanban",
-    live_demo: "https://kanban-ebon.vercel.app/",
-    tech: ["React", "Redux-toolkit", "JavaScript", "Tailwindcss"],
+      "A question-and-answer platform that has forums on a variety of topics, including technology, business, and personal development. User can ask questions,can answer questions and can vote answer. Authentication Included",
+    image: ask,
+    source_code: "https://github.com/Htetaungkyaw71/askme",
+    live_demo: "https://askme-sigma.vercel.app/",
+    tech: ["React", "Redux-toolkit", "JavaScript", "Tailwindcss", "Firebase"],
   },
 ];
 
 const articles = [
   {
     id: "1",
-    title: "Kanban Borad App",
-    image: kanban,
-    url: "https://kanban-ebon.vercel.app/",
+    title: "JavaScript, DOM and Events (Under the Hood)",
+    image: article2,
+    url: "https://medium.com/@htetaung200071/javascript-dom-event-under-the-hood-part-3-5b2b570948ce",
   },
   {
     id: "2",
-    title: "Kanban Borad App",
-    image: kanban,
-    url: "https://kanban-ebon.vercel.app/",
+    title:
+      "What do an international relations student and a web developer have in common?",
+    image: article1,
+    url: "https://medium.com/@htetaung200071/what-do-an-international-relations-student-and-a-web-developer-have-in-common-adbc79b99a40",
   },
 ];
 

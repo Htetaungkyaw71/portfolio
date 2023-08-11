@@ -9,13 +9,15 @@ const Article = ({ article }) => {
       />
       <div className="col-span-3">
         <a
-          className="text-md sm:text-md md:text-md lg:text-lg xl:text-lg font-bold flex items-center gap-1"
+          target="_blank"
+          className="text-md sm:text-md md:text-md lg:text-lg xl:text-lg font-bold"
           href={article.url}
+          rel="noreferrer"
         >
           {" "}
           {article.title}
-          <FiArrowUpRight />
         </a>
+        <FiArrowUpRight className="inline text-xl -mt-1" />
       </div>
     </div>
   );
