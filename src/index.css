@@ -14,3 +14,44 @@
 html {
   scroll-behavior: smooth;
 }
+
+#container {
+  position: relative;
+  overflow: hidden;
+}
+
+.highlight {
+  position: absolute;
+  width: 70%;
+  height: 30%;
+  background: radial-gradient(
+    ellipse farthest-side,
+    #0f182c,
+    rgba(255, 255, 255, 0)
+  );
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  mix-blend-mode: screen;
+  animation:
+    highlight-scale 0.3s ease-out,
+    highlight-fade 0.5s ease-in-out 0.2s;
+}
+
+@keyframes highlight-scale {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes highlight-fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
