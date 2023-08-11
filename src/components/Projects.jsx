@@ -33,7 +33,7 @@ const projects = [
     id: "2",
     title: "Kanban Board App",
     description:
-      "A fully-functional task management app built using React and Redux Toolkit. Including project creation, task addition, editing, and status updates (Todo, Doing, Done). With a sleek design and dark mode, effortlessly organize your tasks and projects while optimizing productivity.",
+      "Fully-functional task management app built using React and Redux Toolkit. Including project creation, task addition, editing, and status updates (Todo, Doing, Done). With a sleek design and dark mode, effortlessly organize your tasks and projects while optimizing productivity.",
     image: kanban,
     source_code: "https://github.com/Htetaungkyaw71/Kanban",
     live_demo: "https://kanban-ebon.vercel.app/",
@@ -44,7 +44,7 @@ const projects = [
     id: "3",
     title: "Real Estate App",
     description:
-      "A real estate application built with react and redux-toolkit. Seamlessly search through a wide range of properties as we leverage the power of Rapid API to provide you with up-to-date data. ",
+      "Real estate application built with react and redux-toolkit. Seamlessly search through a wide range of properties as we leverage the power of Rapid API to provide you with up-to-date data. ",
     image: realtor,
     source_code: "https://github.com/Htetaungkyaw71/Realtor",
     live_demo: "https://realtor-lovat-gamma.vercel.app/",
@@ -64,7 +64,7 @@ const projects = [
     id: "5",
     title: "Gamery",
     description:
-      "A free-game app that pulls from the FreeToGame API to allow users to search for and view the free all games and view with categories. Built with React and Redux.",
+      "Free-game app that pulls from the FreeToGame API to allow users to search for and view the free all games and view with categories. Built with React and Redux.",
     image: game,
     source_code: "https://github.com/Htetaungkyaw71/Gamery",
     live_demo: "https://gamery.onrender.com/",
@@ -74,7 +74,7 @@ const projects = [
     id: "6",
     title: "Ask Me",
     description:
-      "A question-and-answer platform that has forums on a variety of topics, including technology, business, and personal development. User can ask questions,can answer questions and can vote answer. Authentication Included",
+      "Question-and-answer platform that has forums on a variety of topics, including technology, business, and personal development. User can ask questions,can answer questions and can vote answer. Authentication Included",
     image: ask,
     source_code: "https://github.com/Htetaungkyaw71/askme",
     live_demo: "https://askme-sigma.vercel.app/",
