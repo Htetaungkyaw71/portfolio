@@ -1,4 +1,6 @@
 import kanban from "../assets/kanban.png";
+import link from "../assets/link.png";
+import realtor from "../assets/realtor.png";
 import Article from "./Article";
 import Project from "./Project";
 import { BiRightArrowAlt } from "react-icons/bi";
@@ -6,32 +8,41 @@ import { BiRightArrowAlt } from "react-icons/bi";
 const projects = [
   {
     id: "1",
-    title: "Kanban Borad App",
+    title: "Link Sharing App",
     description:
-      "Ram Maheshwari focuses on front-end development for websites and web applications. With a simple and easy-to-use menu bar, his portfolio explains his credentials and work without going into excessive detail.",
-    image: kanban,
-    source_code: "https://github.com/Htetaungkyaw71/Kanban",
-    live_demo: "https://kanban-ebon.vercel.app/",
-    tech: ["React", "Redux-toolkit", "JavaScript", "Tailwindcss"],
+      "Link-Sharing application, where users can seamlessly manage links — creating, reading, updating, and deleting while enjoying mobile previews. With integrated authentication, this app ensures a secure and user-friendly link sharing experience.",
+    image: link,
+    source_code: "https://github.com/Htetaungkyaw71/Sharelink",
+    live_demo: "https://slink-non2.onrender.com/",
+    tech: [
+      "React",
+      "Redux-toolkit",
+      "Nodejs",
+      "Tailwindcss",
+      "Expressjs",
+      "Postgresql",
+      "Prisma",
+    ],
   },
   {
     id: "2",
-    title: "Kanban Borad App",
+    title: "Kanban Board App",
     description:
-      "Ram Maheshwari focuses on front-end development for websites and web applications. With a simple and easy-to-use menu bar, his portfolio explains his credentials and work without going into excessive detail.",
+      "A fully-functional task management app built using React and Redux Toolkit. Including project creation, task addition, editing, and status updates (Todo, Doing, Done). With a sleek design and dark mode, effortlessly organize your tasks and projects while optimizing productivity.",
     image: kanban,
     source_code: "https://github.com/Htetaungkyaw71/Kanban",
     live_demo: "https://kanban-ebon.vercel.app/",
     tech: ["React", "Redux-toolkit", "JavaScript", "Tailwindcss"],
   },
+
   {
     id: "3",
-    title: "Kanban Borad App",
+    title: "Real Estate Application",
     description:
-      "Ram Maheshwari focuses on front-end development for websites and web applications. With a simple and easy-to-use menu bar, his portfolio explains his credentials and work without going into excessive detail.",
-    image: kanban,
-    source_code: "https://github.com/Htetaungkyaw71/Kanban",
-    live_demo: "https://kanban-ebon.vercel.app/",
+      "A real estate application built with react and redux-toolkit. Seamlessly search through a wide range of properties as we leverage the power of Rapid API to provide you with up-to-date data. ",
+    image: realtor,
+    source_code: "https://github.com/Htetaungkyaw71/Realtor",
+    live_demo: "https://realtor-lovat-gamma.vercel.app/",
     tech: ["React", "Redux-toolkit", "JavaScript", "Tailwindcss"],
   },
   {
