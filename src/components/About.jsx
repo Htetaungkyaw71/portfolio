@@ -6,7 +6,7 @@ const About = () => {
       className="pt-16 sm:pt-16 md:pt-16 lg:pt-24 xl:pt-24 pr-3 sm:pr-3 md:pr-3 lg:pr-16 xl:pr-16 p-5 text-gray-400"
       id="about"
     >
-      <h1 className="text-white uppercase mb-6 font-bold sm:block md:block lg:hidden xl:hidden">
+      <h1 className="text-white uppercase mb-6 font-bold sm:block md:block lg:hidden xl:hidden ">
         About
       </h1>
       <p className="mb-10">

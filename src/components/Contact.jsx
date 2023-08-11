@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div
-      className="pt-10 pb-20 sm:pb-20 md:pb-20 lg:pb-24 xl:pb-24 pl-5 sm:pl-5 md:pl-5 lg:pl-3 xl:pl-3"
+      className="pt-10 pb-10 sm:pb-10 md:pb-10 lg:pb-24 xl:pb-24 pl-5 sm:pl-5 md:pl-5 lg:pl-3 xl:pl-3"
       id="contact"
     >
       <h1 className="text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-4xl font-bold">
