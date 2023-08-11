@@ -2,12 +2,15 @@
 import { BiSolidRightArrow } from "react-icons/bi";
 const Skill = () => {
   return (
-    <div className="pt-24 pr-16 px-3" id="skill">
+    <div
+      className="pt-16 sm:pt-16 md:pt-16 lg:pt-24 xl:pt-24 pr-16 p-5"
+      id="skill"
+    >
       <h1 className="text-lg">
         Here are some of the technologies I've been working on within my side
         projects:
       </h1>
-      <div className="flex mt-12 gap-10">
+      <div className="flex flex-wrap mt-12 gap-6 sm:gap-6 md:gap-6 lg:gap-10 xl:gap-10">
         <div>
           <h1 className="mb-5 flex items-center gap-2">
             <BiSolidRightArrow className="text-sm text-[#4FC6C9]" />

@@ -4,11 +4,13 @@ import { FaLinkedin, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
 const Header = ({ activeTag }) => {
   return (
     <div className="h-full sm:relative md:relative lg:fixed xl:fixed">
-      <h1 className="text-5xl font-bold text-gray-200">HtetaungKyaw</h1>
-      <h2 className="text-lg mt-3 font-semibold text-gray-200">
+      <h1 className="text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold text-gray-200">
+        HtetaungKyaw
+      </h1>
+      <h2 className="text-xl mt-3 font-semibold text-gray-200">
         Full Stack Developer
       </h2>
-      <p className="text-md mt-3 text-gray-400 w-96">
+      <p className="text-md mt-3 text-gray-400 w-auto sm:w-auto md:w-auto lg:w-96 xl:w-96">
         I build accessible, inclusive products and digital experiences for the
         web.
       </p>

@@ -1,29 +1,12 @@
 const Contact = () => {
   return (
-    <div className="pt-10 pb-24 ml-3" id="contact">
-      {/* <form action="">
-        <label>Name</label>
-        <input
-          type="text"
-          className="block p-2 bg-slate-600 rounded-sm outline-none mb-3 mt-1"
-        />
-        <label>Email</label>
-        <input
-          type="email"
-          className="block p-2 bg-slate-600 rounded-sm outline-none mb-3 mt-1"
-        />
-        <label>Message</label>
-        <textarea
-          name="message"
-          cols="30"
-          rows="10"
-          className="block p-2 bg-slate-600 rounded-sm outline-none mb-3 mt-1"
-        ></textarea>
-        <button className="border-[1px] px-2 py-1 border-gray-400 rounded-sm ">
-          Send
-        </button>
-      </form> */}
-      <h1 className="text-5xl font-bold">Get In Touch</h1>
+    <div
+      className="pt-10 pb-20 sm:pb-20 md:pb-20 lg:pb-24 xl:pb-24 pl-5 sm:pl-5 md:pl-5 lg:pl-3 xl:pl-3"
+      id="contact"
+    >
+      <h1 className="text-4xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-4xl font-bold">
+        Get In Touch
+      </h1>
       <p className="text-gray-400 my-7 text-lg">
         I’m currently looking for new opportunities, my inbox is always open.
         Whether you have a question or just want to say hi, I’ll try my best to

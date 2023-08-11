@@ -83,7 +83,10 @@ const articles = [
 
 const Projects = () => {
   return (
-    <div className="pr-16 pt-20" id="project">
+    <div
+      className="pl-3 sm:pl-3 md:pl-3 xl:pl-0 lg:pl-0 pr-3 sm:pr-3 md:pr-3 lg:pr-16 xl:pr-16 pt-10 sm:pt-10 md:pt-10 lg:pt-16 xl:pt-16"
+      id="project"
+    >
       {projects.map((project) => (
         <Project project={project} key={project.id} />
       ))}
@@ -98,7 +101,7 @@ const Projects = () => {
         </span>
         <BiRightArrowAlt className="text-xl mt-[1px]" />
       </a>
-      <div className="mt-24">
+      <div className="mt-20">
         {articles.map((article) => (
           <Article article={article} key={article.id} />
         ))}

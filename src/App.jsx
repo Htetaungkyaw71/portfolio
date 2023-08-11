@@ -29,7 +29,7 @@ function App() {
         style={{ left: highlightPosition.x, top: highlightPosition.y }}
       ></div>
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 ">
-        <div className="mt-5 p-16 ">
+        <div className="mt-5 p-6 sm:p-6 md:p-6 lg:p-16 xl:p-16">
           <Header activeTag={activeTag} setActiveTag={setActiveTag} />
         </div>
         <div className="overflow-y-auto">
