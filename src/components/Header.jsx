@@ -11,11 +11,10 @@ const Header = ({ activeTag }) => {
         Full Stack Developer
       </h2>
       <p className="text-md mt-3 text-gray-400 w-auto sm:w-auto md:w-auto lg:w-96 xl:w-96">
-        I build accessible, inclusive products and digital experiences for the
-        web.
+        I build accessible and user-friendly web applications
       </p>
       <div>
-        <p className="mt-10">
+        <div className="mt-10">
           <a href="#about" className="flex items-center">
             <div
               className={`${
@@ -31,8 +30,8 @@ const Header = ({ activeTag }) => {
               About
             </div>
           </a>
-        </p>
-        <p className="mt-5">
+        </div>
+        <div className="mt-5">
           <a href="#skill" className="flex items-center">
             <div
               className={`${
@@ -48,8 +47,8 @@ const Header = ({ activeTag }) => {
               Skills
             </div>
           </a>
-        </p>
-        <p className="mt-5">
+        </div>
+        <div className="mt-5">
           <a href="#project" className="flex items-center">
             <div
               className={`${
@@ -65,8 +64,8 @@ const Header = ({ activeTag }) => {
               Projects
             </div>
           </a>
-        </p>
-        <p className="mt-5">
+        </div>
+        <div className="mt-5">
           <a href="#contact" className="flex items-center">
             <div
               className={`${
@@ -82,7 +81,7 @@ const Header = ({ activeTag }) => {
               Contact
             </div>
           </a>
-        </p>
+        </div>
       </div>
       <div className="flex mt-12">
         <a
