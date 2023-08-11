@@ -24,14 +24,14 @@ const Skill = () => {
             <BiSolidRightArrow className="text-sm text-[#4FC6C9]" />
             <span className="text-gray-400">JavaScript</span>
           </h1>
-          <h1 className="mb-5 flex items-center gap-2">
+          {/* <h1 className="mb-5 flex items-center gap-2">
             <BiSolidRightArrow className="text-sm text-[#4FC6C9]" />
             <span className="text-gray-400">Ruby</span>
           </h1>
           <h1 className="mb-5 flex items-center gap-2">
             <BiSolidRightArrow className="text-sm text-[#4FC6C9]" />
             <span className="text-gray-400">Python</span>
-          </h1>
+          </h1> */}
         </div>
         <div>
           <h1 className="mb-5 flex items-center gap-2">
@@ -44,16 +44,17 @@ const Skill = () => {
           </h1>
           <h1 className="mb-5 flex items-center gap-2">
             <BiSolidRightArrow className="text-sm text-[#4FC6C9]" />
-            <span className="text-gray-400">Nextjs</span>
-          </h1>
-          <h1 className="mb-5 flex items-center gap-2">
-            <BiSolidRightArrow className="text-sm text-[#4FC6C9]" />
             <span className="text-gray-400">Tailwindcss</span>
           </h1>
-          <h1 className="mb-5 flex items-center gap-2">
+          {/* <h1 className="mb-5 flex items-center gap-2">
+            <BiSolidRightArrow className="text-sm text-[#4FC6C9]" />
+            <span className="text-gray-400">Nextjs</span>
+          </h1> */}
+
+          {/* <h1 className="mb-5 flex items-center gap-2">
             <BiSolidRightArrow className="text-sm text-[#4FC6C9]" />
             <span className="text-gray-400">Postgresql</span>
-          </h1>
+          </h1> */}
         </div>
         <div>
           <h1 className="mb-5 flex items-center gap-2">
@@ -66,6 +67,10 @@ const Skill = () => {
           </h1>
           <h1 className="mb-5 flex items-center gap-2">
             <BiSolidRightArrow className="text-sm text-[#4FC6C9]" />
+            <span className="text-gray-400">Postgresql</span>
+          </h1>
+          {/* <h1 className="mb-5 flex items-center gap-2">
+            <BiSolidRightArrow className="text-sm text-[#4FC6C9]" />
             <span className="text-gray-400">Ruby On Rails</span>
           </h1>
           <h1 className="mb-5 flex items-center gap-2">
@@ -75,7 +80,7 @@ const Skill = () => {
           <h1 className="mb-5 flex items-center gap-2">
             <BiSolidRightArrow className="text-sm text-[#4FC6C9]" />
             <span className="text-gray-400">Flask</span>
-          </h1>
+          </h1> */}
         </div>
       </div>
     </div>
