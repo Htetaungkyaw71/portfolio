@@ -87,11 +87,17 @@ const Projects = () => {
       className="pl-3 sm:pl-3 md:pl-3 xl:pl-0 lg:pl-0 pr-3 sm:pr-3 md:pr-3 lg:pr-16 xl:pr-16 pt-10 sm:pt-10 md:pt-10 lg:pt-16 xl:pt-16"
       id="project"
     >
+      <h1
+        className="text-white uppercase mb-3 font-bold sm:block md:block lg:hidden xl:hidden p-3
+      "
+      >
+        projects
+      </h1>
       {projects.map((project) => (
         <Project project={project} key={project.id} />
       ))}
       <a
-        className="flex items-center gap-1 ml-3 pt-5"
+        className="flex items-center gap-1 ml-3 sm:ml-3 md:ml-3 lg:ml-5 xl:ml-5 pt-5"
         href="https://github.com/Htetaungkyaw71?tab=repositories"
         target="_blank"
         rel="noreferrer"
@@ -102,6 +108,9 @@ const Projects = () => {
         <BiRightArrowAlt className="text-xl mt-[1px]" />
       </a>
       <div className="mt-20">
+        <h1 className="text-white uppercase mb-6 font-bold sm:block md:block lg:hidden xl:hidden p-2">
+          Writing
+        </h1>
         {articles.map((article) => (
           <Article article={article} key={article.id} />
         ))}
