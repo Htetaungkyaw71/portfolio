@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { BiRightArrowAlt } from "react-icons/bi";
 
 const About = () => {
@@ -10,22 +11,26 @@ const About = () => {
         About
       </h1>
       <p className="mb-10">
-        Back in 2012, I decided to try my hand at creating custom Tumblr themes
-        and tumbled head first into the rabbit hole of coding and web
-        development. Fast-forward to today, and Ive had the privilege of
-        building software for an advertising agency, a start-up, a student-led
-        design studio, and a huge corporation.
+        Back in 2020, I started diving into computer science through the{" "}
+        <b className="text-white">
+          CS50's Introduction to computer science course
+        </b>{" "}
+        . That's when I learned how to approach problems with algorithms and
+        solve coding challenges skillfully. After that, I sharpened my abilities
+        even more at <b className="text-white">Microverse, a remote school</b>{" "}
+        where I worked on projects with fellow students, growing my skills while
+        learning together.
+        <br />
+        <br />I have a strong technical skill set that includes JavaScript,
+        React, Redux, Node.js, Express.js, Ruby, Ruby on Rails, PostgreSQL,
+        Rspec, and Jest for testing. My main focus these days is building{" "}
+        <b className="text-white">full-stack projects</b> and learning new
+        technologies.
         <br />
         <br />
-        My main focus these days is building products and leading projects for
-        our clients at Upstatement. In my frve also released an online video
-        course that covers everything you need to know to build a web app with
-        the Spotify API.
-        <br />
-        <br />
-        When Im not at the computer, Im usually rock climbing, hanging out with
-        my wife and two cats, or running around Hyrule searching for Korok seeds
-        K o r o k s e e d s .
+        When I'm not on the computer, I'm out playing{" "}
+        <b className="text-white">football</b> with my friends. Just like
+        coding, it's a fun way to team up and enjoy some action together.
       </p>
       <a
         className="flex items-center gap-1 "
