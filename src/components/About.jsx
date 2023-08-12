@@ -14,7 +14,7 @@ const About = () => {
         Back in 2020, I started diving into computer science through the{" "}
         <b className="text-white">
           CS50's Introduction to computer science course
-        </b>{" "}
+        </b>
         . That's when I learned how to approach problems with algorithms and
         solve coding challenges skillfully. After that, I sharpened my abilities
         even more at <b className="text-white">Microverse, a remote school</b>{" "}

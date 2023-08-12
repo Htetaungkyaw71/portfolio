@@ -33,7 +33,7 @@ function App() {
         <Loader />
       ) : (
         <div
-          className="bg-slate-900 min-h-screen text-white overflow-hidden"
+          className="bg-slate-900 min-h-screen text-white overflow-hidden px-0 sm:px-0 md:px-20 lg:px-0 xl:px-0"
           id="container"
           onMouseMove={handleMouseMove}
         >
