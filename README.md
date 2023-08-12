@@ -34,11 +34,15 @@ git clone git@github.com:Htetaungkyaw71/portfolio.git
 npm run dev
 ```
 
-
 ## Authors
 
 * Htetaungkyaw
 [@Htetaungkyaw](https://github.com/Htetaungkyaw71)
+
+
+## Acknowledgement 
+
+I was inspired by this website [link](https://brittanychiang.com/)
 
 
 ## License
