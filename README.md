@@ -1,8 +1,46 @@
-# React + Vite
+# My portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is my portfolio v5 built with react and tailwindcss.
+
+## Getting Started
+```
+git clone git@github.com:Htetaungkyaw71/portfolio.git
+```
+### Screenshot
+![This is an image](./portfolio.png)
+
+### Live demo
+
+* Portfolio
+[@Link](https://htetaungkyaw.me/)
+
+### Technologies
+* React
+* Tailwind CSS
+
+### Installing
+```
+ npm install
+```
+
+### Executing program
+
+* How to run the program
+```
+npm run dev
+```
+
+
+## Authors
+
+* Htetaungkyaw
+[@Htetaungkyaw](https://github.com/Htetaungkyaw71)
+
+
+## License
+
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
