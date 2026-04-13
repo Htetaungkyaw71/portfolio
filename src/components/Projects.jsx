@@ -1,5 +1,7 @@
 import kanban from "../assets/kanban.png";
 import link from "../assets/link.png";
+import devverify from "../assets/devverifyimg.png";
+
 import realtor from "../assets/realtor.png";
 import chat from "../assets/chat.png";
 import game from "../assets/game.png";
@@ -11,8 +13,26 @@ import Project from "./Project";
 import { BiRightArrowAlt } from "react-icons/bi";
 
 const projects = [
-  {
+    {
     id: "1",
+    title: "DevVerify",
+    description:
+      "A full-stack B2B SaaS platform designed to streamline technical recruitment through automated coding challenges and real-time evaluations. Built with a focus on high-performance architecture, devVerify allows companies to host timed coding assessments with secure, multi-language execution and integrated proctoring features.",
+    image: devverify,
+    source_code: "https://github.com/Htetaungkyaw71/DevVerify",
+    live_demo: "https://www.devverify.online",
+    tech: [
+      "React",
+      "Redux-toolkit",
+      "Nodejs",
+      "Tailwindcss",
+      "Expressjs",
+      "Mongodb",
+      "Redis",
+    ],
+  },
+  {
+    id: "2",
     title: "Link Sharing App",
     description:
       "Link-Sharing application, where users can seamlessly manage links — creating, reading, updating, and deleting while enjoying mobile previews. With integrated authentication, this app ensures a secure and user-friendly link sharing experience.",
@@ -30,7 +50,7 @@ const projects = [
     ],
   },
   {
-    id: "2",
+    id: "3",
     title: "Kanban Board App",
     description:
       "Fully-functional task management app built using React and Redux Toolkit. Including project creation, task addition, editing, and status updates (Todo, Doing, Done). With a sleek design and dark mode, effortlessly organize your tasks and projects while optimizing productivity.",
@@ -40,16 +60,16 @@ const projects = [
     tech: ["React", "Redux-toolkit", "JavaScript", "Tailwindcss"],
   },
 
-  {
-    id: "3",
-    title: "Real Estate App",
-    description:
-      "Real estate application built with react and redux-toolkit. Seamlessly search through a wide range of properties as we leverage the power of Rapid API to provide you with up-to-date data. ",
-    image: realtor,
-    source_code: "https://github.com/Htetaungkyaw71/Realtor",
-    live_demo: "https://realtor-lovat-gamma.vercel.app/",
-    tech: ["React", "Redux-toolkit", "JavaScript", "Tailwindcss"],
-  },
+  // {
+  //   id: "3",
+  //   title: "Real Estate App",
+  //   description:
+  //     "Real estate application built with react and redux-toolkit. Seamlessly search through a wide range of properties as we leverage the power of Rapid API to provide you with up-to-date data. ",
+  //   image: realtor,
+  //   source_code: "https://github.com/Htetaungkyaw71/Realtor",
+  //   live_demo: "https://realtor-lovat-gamma.vercel.app/",
+  //   tech: ["React", "Redux-toolkit", "JavaScript", "Tailwindcss"],
+  // },
   {
     id: "4",
     title: "Chat Valley",
