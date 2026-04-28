@@ -1,6 +1,7 @@
 import kanban from "../assets/kanban.png";
 import link from "../assets/link.png";
 import devverify from "../assets/devverifyimg.png";
+import stackhire from "../assets/stackhire.png";
 
 import realtor from "../assets/realtor.png";
 import chat from "../assets/chat.png";
@@ -13,7 +14,7 @@ import Project from "./Project";
 import { BiRightArrowAlt } from "react-icons/bi";
 
 const projects = [
-    {
+  {
     id: "1",
     title: "DevVerify",
     description:
@@ -33,12 +34,12 @@ const projects = [
   },
   {
     id: "2",
-    title: "Link Sharing App",
+    title: "StackHire",
     description:
-      "Link-Sharing application, where users can seamlessly manage links — creating, reading, updating, and deleting while enjoying mobile previews. With integrated authentication, this app ensures a secure and user-friendly link sharing experience.",
-    image: link,
-    source_code: "https://github.com/Htetaungkyaw71/Sharelink",
-    live_demo: "https://slink-non2.onrender.com/",
+      "A modern, end-to-end job board ecosystem designed for speed and scalability. StackHire bridges the gap between talent and opportunity with a specialized recruiter-to-candidate workflow.",
+    image: stackhire,
+    source_code: "https://github.com/Htetaungkyaw71/StackHire",
+    live_demo: "https://stackhirejobs.vercel.app/",
     tech: [
       "React",
       "Redux-toolkit",
@@ -49,8 +50,36 @@ const projects = [
       "Prisma",
     ],
   },
+  // {
+  //   id: "3",
+  //   title: "Link Sharing App",
+  //   description:
+  //     "Link-Sharing application, where users can seamlessly manage links — creating, reading, updating, and deleting while enjoying mobile previews. With integrated authentication, this app ensures a secure and user-friendly link sharing experience.",
+  //   image: link,
+  //   source_code: "https://github.com/Htetaungkyaw71/Sharelink",
+  //   live_demo: "https://slink-non2.onrender.com/",
+  //   tech: [
+  //     "React",
+  //     "Redux-toolkit",
+  //     "Nodejs",
+  //     "Tailwindcss",
+  //     "Expressjs",
+  //     "Postgresql",
+  //     "Prisma",
+  //   ],
+  // },
   {
     id: "3",
+    title: "Chat Valley",
+    description:
+      "Video chat with strangers. Users can chat random strangers from around the world. Users need to allow their camera and microphone in web browsers built with Html, CSS, JavaScript and other libraries.",
+    image: chat,
+    source_code: "https://github.com/Htetaungkyaw71/Chat-Valley",
+    live_demo: "https://chat-valley-zx8a.onrender.com/",
+    tech: ["Javascript", "WebRTC", "NodeJs", "Socket.io"],
+  },
+  {
+    id: "4",
     title: "Kanban Board App",
     description:
       "Fully-functional task management app built using React and Redux Toolkit. Including project creation, task addition, editing, and status updates (Todo, Doing, Done). With a sleek design and dark mode, effortlessly organize your tasks and projects while optimizing productivity.",
@@ -70,16 +99,7 @@ const projects = [
   //   live_demo: "https://realtor-lovat-gamma.vercel.app/",
   //   tech: ["React", "Redux-toolkit", "JavaScript", "Tailwindcss"],
   // },
-  {
-    id: "4",
-    title: "Chat Valley",
-    description:
-      "Video chat with strangers. Users can chat random strangers from around the world. Users need to allow their camera and microphone in web browsers built with Html, CSS, JavaScript and other libraries.",
-    image: chat,
-    source_code: "https://github.com/Htetaungkyaw71/Chat-Valley",
-    live_demo: "https://chat-valley-zx8a.onrender.com/",
-    tech: ["Javascript", "WebRTC", "NodeJs", "Socket.io"],
-  },
+
   {
     id: "5",
     title: "Gamery",
