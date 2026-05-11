@@ -39,7 +39,7 @@ const projects = [
       "A modern, end-to-end job board ecosystem designed for speed and scalability. StackHire bridges the gap between talent and opportunity with a specialized recruiter-to-candidate workflow.",
     image: stackhire,
     source_code: "https://github.com/Htetaungkyaw71/StackHire",
-    live_demo: "https://stackhirejobs.vercel.app/",
+    live_demo: "https://stackhire.online",
     tech: [
       "React",
       "Redux-toolkit",
