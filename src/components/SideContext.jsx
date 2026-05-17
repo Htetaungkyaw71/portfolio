@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import About from "./About";
 import Skill from "./Skill";
+import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import { BiUpArrowAlt } from "react-icons/bi";
@@ -12,6 +13,7 @@ const SideContext = ({ setActiveTag }) => {
     const handleScroll = () => {
       const about = document.getElementById("about");
       const skill = document.getElementById("skill");
+      const experience = document.getElementById("experience");
       const project = document.getElementById("project");
       const contact = document.getElementById("contact");
 
@@ -24,6 +26,8 @@ const SideContext = ({ setActiveTag }) => {
         setActiveTag("about");
       } else if (isInViewport(skill)) {
         setActiveTag("skill");
+      } else if (experience && isInViewport(experience)) {
+        setActiveTag("experience");
       } else if (isInViewport(project)) {
         setActiveTag("project");
       } else if (isInViewport(contact)) {
@@ -40,6 +44,7 @@ const SideContext = ({ setActiveTag }) => {
     <div>
       <About />
       <Skill />
+      <Experience />
       <Projects />
       <Contact />
       <div className="text-right pr-5 pb-5">

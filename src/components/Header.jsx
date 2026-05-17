@@ -5,7 +5,7 @@ const Header = ({ activeTag }) => {
   return (
     <div className="h-full sm:relative md:relative lg:fixed xl:fixed">
       <h1 className="text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-bold text-gray-200">
-        HtetaungKyaw
+        Htetaungkyaw
       </h1>
       <h2 className="text-xl mt-3 font-semibold text-gray-200">
         Full Stack Developer
@@ -45,6 +45,22 @@ const Header = ({ activeTag }) => {
             >
               {" "}
               Skills
+            </div>
+          </a>
+        </div>
+        <div className="mt-5">
+          <a href="#experience" className="flex items-center">
+            <div
+              className={`${
+                activeTag === "experience" ? "w-16 bg-white" : "bg-gray-400 w-8"
+              }  mr-4 h-[1px]   inline-block duration-500`}
+            ></div>
+            <div
+              className={`inline-block text-gray-400 ${
+                activeTag === "experience" ? "text-white" : ""
+              }`}
+            >
+              Experience
             </div>
           </a>
         </div>
@@ -106,7 +122,7 @@ const Header = ({ activeTag }) => {
           <FaTwitter className="text-2xl mr-5 text-gray-400 hover:text-white duration-300 cursor-pointer" />
         </a>
         <a
-          href="https://www.instagram.com/htetaungkyaw17/"
+          href="https://www.instagram.com/htetaungkyaw172/"
           target="_blank"
           rel="noreferrer"
         >

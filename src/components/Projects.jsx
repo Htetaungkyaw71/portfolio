@@ -100,16 +100,16 @@ const projects = [
   //   tech: ["React", "Redux-toolkit", "JavaScript", "Tailwindcss"],
   // },
 
-  {
-    id: "5",
-    title: "Gamery",
-    description:
-      "Free-game app that pulls from the FreeToGame API to allow users to search for and view the free all games and view with categories. Built with React and Redux.",
-    image: game,
-    source_code: "https://github.com/Htetaungkyaw71/Gamery",
-    live_demo: "https://gamery.onrender.com/",
-    tech: ["React", "Redux-toolkit", "JavaScript"],
-  },
+  // {
+  //   id: "5",
+  //   title: "Gamery",
+  //   description:
+  //     "Free-game app that pulls from the FreeToGame API to allow users to search for and view the free all games and view with categories. Built with React and Redux.",
+  //   image: game,
+  //   source_code: "https://github.com/Htetaungkyaw71/Gamery",
+  //   live_demo: "https://gamery.onrender.com/",
+  //   tech: ["React", "Redux-toolkit", "JavaScript"],
+  // },
   {
     id: "6",
     title: "Ask Me",
