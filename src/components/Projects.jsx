@@ -4,6 +4,7 @@ import devverify from "../assets/devverifyimg.png";
 import stackhire from "../assets/stackhire.png";
 
 import realtor from "../assets/realtor.png";
+import freekyi from "../assets/freekyi.png";
 import chat from "../assets/chat.png";
 import game from "../assets/game.png";
 import ask from "../assets/ask.png";
@@ -50,26 +51,18 @@ const projects = [
       "Prisma",
     ],
   },
-  // {
-  //   id: "3",
-  //   title: "Link Sharing App",
-  //   description:
-  //     "Link-Sharing application, where users can seamlessly manage links — creating, reading, updating, and deleting while enjoying mobile previews. With integrated authentication, this app ensures a secure and user-friendly link sharing experience.",
-  //   image: link,
-  //   source_code: "https://github.com/Htetaungkyaw71/Sharelink",
-  //   live_demo: "https://slink-non2.onrender.com/",
-  //   tech: [
-  //     "React",
-  //     "Redux-toolkit",
-  //     "Nodejs",
-  //     "Tailwindcss",
-  //     "Expressjs",
-  //     "Postgresql",
-  //     "Prisma",
-  //   ],
-  // },
   {
     id: "3",
+    title: "Freekyi",
+    description:
+      "FreeKyi is a premium web application for browsing and streaming movies and TV series. Built with a sleek dark-mode interface, fluid animations, and highly optimized performance.",
+    image: freekyi,
+    source_code: "https://github.com/Htetaungkyaw71/FreeKyi",
+    live_demo: "https://freekyi.vercel.app/",
+    tech: ["React", "Redux-toolkit", "Framer-motion", "Swiper", "Tailwindcss"],
+  },
+  {
+    id: "4",
     title: "Chat Valley",
     description:
       "Video chat with strangers. Users can chat random strangers from around the world. Users need to allow their camera and microphone in web browsers built with Html, CSS, JavaScript and other libraries.",
@@ -77,16 +70,6 @@ const projects = [
     source_code: "https://github.com/Htetaungkyaw71/Chat-Valley",
     live_demo: "https://chat-valley-zx8a.onrender.com/",
     tech: ["Javascript", "WebRTC", "NodeJs", "Socket.io"],
-  },
-  {
-    id: "4",
-    title: "Kanban Board App",
-    description:
-      "Fully-functional task management app built using React and Redux Toolkit. Including project creation, task addition, editing, and status updates (Todo, Doing, Done). With a sleek design and dark mode, effortlessly organize your tasks and projects while optimizing productivity.",
-    image: kanban,
-    source_code: "https://github.com/Htetaungkyaw71/Kanban",
-    live_demo: "https://kanban-ebon.vercel.app/",
-    tech: ["React", "Redux-toolkit", "JavaScript", "Tailwindcss"],
   },
 
   // {
