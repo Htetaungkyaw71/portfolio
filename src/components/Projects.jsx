@@ -58,7 +58,7 @@ const projects = [
       "FreeKyi is a premium web application for browsing and streaming movies and TV series. Built with a sleek dark-mode interface, fluid animations, and highly optimized performance.",
     image: freekyi,
     source_code: "https://github.com/Htetaungkyaw71/FreeKyi",
-    live_demo: "https://freekyi.vercel.app/",
+    live_demo: "https://freekyi.com",
     tech: ["React", "Redux-toolkit", "Framer-motion", "Swiper", "Tailwindcss"],
   },
   {

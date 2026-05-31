@@ -22,8 +22,8 @@ const About = () => {
         learning together.
         <br />
         <br />I have a strong technical skill set that includes JavaScript,
-        React, Redux, Node.js, Express.js, Ruby, Ruby on Rails, PostgreSQL,
-        Rspec, and Jest for testing. My main focus these days is building{" "}
+        React, Redux, Node.js, Express.js, Redis, PostgreSQL, Prisma, and Jest
+        for testing. My main focus these days is building{" "}
         <b className="text-white">full-stack projects</b> and learning new
         technologies.
         <br />
