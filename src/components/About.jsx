@@ -11,30 +11,33 @@ const About = () => {
         About
       </h1>
       <p className="mb-10">
-        Back in 2020, I started diving into computer science through the{" "}
+        Back in 2020, I began exploring computer science through{" "}
+        <b className="text-white">CS50's Introduction to Computer Science</b>.
+        That course taught me how to think through problems, work with
+        algorithms, and approach coding challenges with more confidence. I later
+        continued sharpening my skills at{" "}
         <b className="text-white">
-          CS50's Introduction to computer science course
+          Microverse, a remote software development school
         </b>
-        . That's when I learned how to approach problems with algorithms and
-        solve coding challenges skillfully. After that, I sharpened my abilities
-        even more at <b className="text-white">Microverse, a remote school</b>{" "}
-        where I worked on projects with fellow students, growing my skills while
-        learning together.
+        , where I collaborated with other developers and built projects in a{" "}
+        <b className="text-white">team-based environment</b>.
         <br />
-        <br />I have a strong technical skill set that includes JavaScript,
-        React, Redux, Node.js, Express.js, Redis, PostgreSQL, Prisma, and Jest
-        for testing. My main focus these days is building{" "}
-        <b className="text-white">full-stack projects</b> and learning new
-        technologies.
+        <br />I have a strong technical skill set that includes{" "}
+        <b className="text-white">
+          JavaScript, React, Redux, Node.js, Express.js, Redis, PostgreSQL,
+          Prisma, and Jest
+        </b>
+        . My current focus is building full-stack applications, improving{" "}
+        performance, and continuing to learn new technologies.
         <br />
         <br />
-        When I'm not on the computer, I'm out playing{" "}
-        <b className="text-white">football</b> with my friends. Just like
-        coding, it's a fun way to team up and enjoy some action together.
+        When I'm not at the computer, I'm usually playing football with friends.
+        Like coding, it gives me a chance to work with others, stay active, and
+        enjoy the process.
       </p>
       <a
         className="flex items-center gap-1 "
-        href="https://docs.google.com/document/d/118NYGQqoqAavNE77jZlboIxvcYgzAei3kgLAZszykys/edit"
+        href="https://docs.google.com/document/d/1UItXJVHn8E9vnlZoTtu5FSryjFGigVYsmjr-YYEw--4/edit?usp=sharing"
         target="_blank"
         rel="noreferrer"
       >

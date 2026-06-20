@@ -11,31 +11,26 @@ import { BiUpArrowAlt } from "react-icons/bi";
 const SideContext = ({ setActiveTag }) => {
   useEffect(() => {
     const handleScroll = () => {
-      const about = document.getElementById("about");
-      const skill = document.getElementById("skill");
-      const experience = document.getElementById("experience");
-      const project = document.getElementById("project");
-      const contact = document.getElementById("contact");
+      const sections = ["about", "skill", "experience", "project", "contact"];
 
-      const isInViewport = (elementRect) => {
-        const rect = elementRect.getBoundingClientRect();
+      const isInViewport = (element) => {
+        const rect = element.getBoundingClientRect();
         return rect.top >= 0 && rect.top <= window.innerHeight;
       };
 
-      if (isInViewport(about)) {
-        setActiveTag("about");
-      } else if (isInViewport(skill)) {
-        setActiveTag("skill");
-      } else if (experience && isInViewport(experience)) {
-        setActiveTag("experience");
-      } else if (isInViewport(project)) {
-        setActiveTag("project");
-      } else if (isInViewport(contact)) {
-        setActiveTag("contact");
+      for (const section of sections) {
+        const element = document.getElementById(section);
+
+        if (element && isInViewport(element)) {
+          setActiveTag(section);
+          break;
+        }
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll();
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };

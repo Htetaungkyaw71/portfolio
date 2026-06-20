@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import { BiSolidRightArrow } from "react-icons/bi";
 const Skill = () => {
   return (

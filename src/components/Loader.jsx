@@ -4,7 +4,6 @@ const Loader = () => {
       <span className="loader">
         <span className="mx-1 text-3xl">Htet</span>
       </span>
-      ;
     </div>
   );
 };

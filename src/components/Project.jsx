@@ -1,12 +1,17 @@
 /* eslint-disable react/prop-types */
 import { BsLink45Deg } from "react-icons/bs";
+import OptimizedImage from "./OptimizedImage";
 
 const Project = ({ project }) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 mb-7 p-2 sm:p-2 md:p-2 lg:p-5 xl:p-5  gap-5 hover:bg-[#17274B] rounded-lg  hover:text-[#4FC6C9] hover:shadow-lg duration-300">
-      <img
+      <OptimizedImage
         src={project.image}
-        className="border-2 border-gray-500 rounded-sm mt-2"
+        alt={`${project.title} project screenshot`}
+        width={project.imageWidth}
+        height={project.imageHeight}
+        loading={project.isPriority ? "eager" : "lazy"}
+        className="border-2 border-gray-500 rounded-sm mt-2 w-full"
       />
       <div className="col-span-3">
         <h1 className="text-lg font-bold"> {project.title}</h1>

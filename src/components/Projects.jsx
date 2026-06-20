@@ -1,15 +1,10 @@
-import kanban from "../assets/kanban.png";
-import link from "../assets/link.png";
-import devverify from "../assets/devverifyimg.png";
-import stackhire from "../assets/stackhire.png";
-
-import realtor from "../assets/realtor.png";
-import freekyi from "../assets/freekyi.png";
-import chat from "../assets/chat.png";
-import game from "../assets/game.png";
-import ask from "../assets/ask.png";
-import article1 from "../assets/article1.jpg";
-import article2 from "../assets/article2.jpg";
+import devverify from "../assets/optimized/devverify.webp";
+import stackhire from "../assets/optimized/stackhire.webp";
+import freekyi from "../assets/optimized/freekyi.webp";
+import chat from "../assets/optimized/chat.webp";
+import ask from "../assets/optimized/ask.webp";
+import article1 from "../assets/optimized/article1.webp";
+import article2 from "../assets/optimized/article2.webp";
 import Article from "./Article";
 import Project from "./Project";
 import { BiRightArrowAlt } from "react-icons/bi";
@@ -21,6 +16,9 @@ const projects = [
     description:
       "A full-stack B2B SaaS platform designed to streamline technical recruitment through automated coding challenges and real-time evaluations. Built with a focus on high-performance architecture, devVerify allows companies to host timed coding assessments with secure, multi-language execution and integrated proctoring features.",
     image: devverify,
+    imageWidth: 760,
+    imageHeight: 411,
+    isPriority: true,
     source_code: "https://github.com/Htetaungkyaw71/DevVerify",
     live_demo: "https://www.devverify.online",
     tech: [
@@ -39,6 +37,8 @@ const projects = [
     description:
       "A modern, end-to-end job board ecosystem designed for speed and scalability. StackHire bridges the gap between talent and opportunity with a specialized recruiter-to-candidate workflow.",
     image: stackhire,
+    imageWidth: 760,
+    imageHeight: 411,
     source_code: "https://github.com/Htetaungkyaw71/StackHire",
     live_demo: "https://stackhire.online",
     tech: [
@@ -57,6 +57,8 @@ const projects = [
     description:
       "FreeKyi is a premium web application for browsing and streaming movies and TV series. Built with a sleek dark-mode interface, fluid animations, and highly optimized performance.",
     image: freekyi,
+    imageWidth: 760,
+    imageHeight: 407,
     source_code: "https://github.com/Htetaungkyaw71/FreeKyi",
     live_demo: "https://freekyi.com",
     tech: ["React", "Redux-toolkit", "Framer-motion", "Swiper", "Tailwindcss"],
@@ -67,6 +69,8 @@ const projects = [
     description:
       "Video chat with strangers. Users can chat random strangers from around the world. Users need to allow their camera and microphone in web browsers built with Html, CSS, JavaScript and other libraries.",
     image: chat,
+    imageWidth: 760,
+    imageHeight: 350,
     source_code: "https://github.com/Htetaungkyaw71/Chat-Valley",
     live_demo: "https://chat-valley-zx8a.onrender.com/",
     tech: ["Javascript", "WebRTC", "NodeJs", "Socket.io"],
@@ -99,6 +103,8 @@ const projects = [
     description:
       "Question-and-answer platform that has forums on a variety of topics, including technology, business, and personal development. User can ask questions,can answer questions and can vote answer. Authentication Included",
     image: ask,
+    imageWidth: 760,
+    imageHeight: 348,
     source_code: "https://github.com/Htetaungkyaw71/askme",
     live_demo: "https://askme-sigma.vercel.app/",
     tech: ["React", "Redux-toolkit", "JavaScript", "Tailwindcss", "Firebase"],
